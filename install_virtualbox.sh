@@ -11,7 +11,7 @@ echo "running "$SCRIPT_NAME
 # http://doc.ubuntu-fr.org/virtualbox
 
 wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -  &>> $SCRIPT_LOGFILE
-echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
+echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list &>> $SCRIPT_LOGFILE
 sudo apt-get update &>> $SCRIPT_LOGFILE
 sudo apt-get -y install virtualbox-5.0 &>> $SCRIPT_LOGFILE
 sudo usermod -G vboxusers -a $USER &>> $SCRIPT_LOGFILE
