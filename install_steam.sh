@@ -18,5 +18,5 @@ echo "running "$SCRIPT_NAME
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys B05498B7
 echo "deb http://repo.steampowered.com/steam/ precise steam" | sudo tee -a  /etc/apt/sources.list.d/steam.list
-sudo apt-get -y update
-sudo apt-get -y install steam-launcher
+sudo apt-get -y update >> $SCRIPT_LOGFILE
+sudo apt-get -y install steam-launcher >> $SCRIPT_LOGFILE

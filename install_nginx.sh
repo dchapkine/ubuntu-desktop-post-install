@@ -11,7 +11,7 @@ echo "running "$SCRIPT_NAME
 
 echo "[TODO] install nginx"
 
-sudo apt-get -y -qq install nginx
+sudo apt-get -y install nginx >> $SCRIPT_LOGFILE
 
 echo "[DONE] install nginx"
 echo ""

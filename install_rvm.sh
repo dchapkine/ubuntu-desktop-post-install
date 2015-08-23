@@ -10,11 +10,11 @@ echo "running "$SCRIPT_NAME
 # https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-14-04
 
 
-sudo apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev
+sudo apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev >> $SCRIPT_LOGFILE
 
 cd
-rm -rf
-git clone git://github.com/sstephenson/rbenv.git .rbenv
+rm -rf .rbenv
+git clone git://github.com/sstephenson/rbenv.git .rbenv >> $SCRIPT_LOGFILE
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 

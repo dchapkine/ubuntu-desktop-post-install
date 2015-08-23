@@ -15,12 +15,12 @@ echo "running "$SCRIPT_NAME
 
 myusername=$(whoami)
 
-sudo apt-get -y install curl
-curl -sSL https://get.docker.com/ | sh
-sudo usermod -aG docker $myusername
+sudo apt-get -y install curl >> $SCRIPT_LOGFILE 
+curl -sSL https://get.docker.com/ | sh >> $SCRIPT_LOGFILE
+sudo usermod -aG docker $myusername >> $SCRIPT_LOGFILE
 
 
-sudo service docker restart
+sudo service docker restart >> $SCRIPT_LOGFILE
 
 
 
