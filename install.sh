@@ -24,7 +24,7 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_icons.sh
 		./install_docker.sh
 		./install_nvm.sh
-		./install_rvm.sh
+		./install_rbenv.sh
 		./install_virtualbox.sh
 
 
