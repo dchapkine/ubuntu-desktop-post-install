@@ -30,10 +30,10 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh >>
 
 exec bash -c "nvm ls-remote; nvm install stable"
 
-echo "TODO: PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
-echo "After install, check available version by typing 'nvm ls-remote'"
-echo "Then install version(s) you need by running, for example: 'nvm install 0.12.7' or use 'nvm install stable' to install latest stable version"
-echo "Usually, nvm will switch to use the most recently installed version. You can explicitly tell nvm to use the version we just downloaded by typing: 'nvm use 0.12.7'"
-echo "If you have multiple Node.js versions, you can see what is installed by typing: 'nvm ls'"
+#echo "TODO: PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
+#echo "After install, check available version by typing 'nvm ls-remote'"
+#echo "Then install version(s) you need by running, for example: 'nvm install 0.12.7' or use 'nvm install stable' to install latest stable version"
+#echo "Usually, nvm will switch to use the most recently installed version. You can explicitly tell nvm to use the version we just downloaded by typing: 'nvm use 0.12.7'"
+#echo "If you have multiple Node.js versions, you can see what is installed by typing: 'nvm ls'"
 
 
