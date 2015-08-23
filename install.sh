@@ -16,9 +16,6 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		rm -rf ./logs/*
 
 		./preinstall.sh
-
-		exit;
-
 		./install_emacs.sh
 		./install_spotify.sh
 		./install_vlc.sh
