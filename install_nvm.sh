@@ -6,6 +6,8 @@ SCRIPT_LOGFILE="./logs/"$(basename -s .sh $BASH_SOURCE)".log"
 echo "running "$SCRIPT_NAME
 
 
+# tested: works on ubuntu 14.04.3 gnome
+
 
 
 # install stable ubuntu packages
