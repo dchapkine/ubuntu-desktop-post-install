@@ -21,8 +21,4 @@ sudo usermod -aG docker $USER
 sudo service docker start &>> $SCRIPT_LOGFILE
 
 
-
-#echo "TODO: PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
-#echo "after install, check that your you belong to docker group by typing: 'id'"
-#echo "then check if docker is installed correctly and doesnt require sudo, by running this command: 'docker run hello-world'"
-
+echo "  !!! PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
