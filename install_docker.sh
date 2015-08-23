@@ -15,16 +15,16 @@ echo "running "$SCRIPT_NAME
 
 myusername=$(whoami)
 
-sudo apt-get -y install curl >> $SCRIPT_LOGFILE 
-curl -sSL https://get.docker.com/ | sh >> $SCRIPT_LOGFILE
-sudo usermod -aG docker $myusername >> $SCRIPT_LOGFILE
+sudo apt-get -y install curl &>> $SCRIPT_LOGFILE 
+curl -sSL https://get.docker.com/ | sh &>> $SCRIPT_LOGFILE
+sudo usermod -aG docker $myusername &>> $SCRIPT_LOGFILE
 
 
-sudo service docker restart >> $SCRIPT_LOGFILE
+sudo service docker start &>> $SCRIPT_LOGFILE
 
 
 
-echo "TODO: PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
-echo "after install, check that your you belong to docker group by typing: 'id'"
-echo "then check if docker is installed correctly and doesnt require sudo, by running this command: 'docker run hello-world'"
+#echo "TODO: PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
+#echo "after install, check that your you belong to docker group by typing: 'id'"
+#echo "then check if docker is installed correctly and doesnt require sudo, by running this command: 'docker run hello-world'"
 
