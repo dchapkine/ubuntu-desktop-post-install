@@ -13,11 +13,9 @@ echo "running "$SCRIPT_NAME
 
 #https://docs.docker.com/installation/ubuntulinux/
 
-myusername=$(whoami)
-
 sudo apt-get -y install curl &>> $SCRIPT_LOGFILE 
 curl -sSL https://get.docker.com/ | sh &>> $SCRIPT_LOGFILE
-sudo usermod -aG docker $myusername &>> $SCRIPT_LOGFILE
+sudo usermod -aG docker $USER
 
 
 sudo service docker start &>> $SCRIPT_LOGFILE
