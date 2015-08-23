@@ -6,7 +6,7 @@ Ubuntu post installation script for developers
 
 ```
 
-sudo apt-get install -y -qq git && cd ~ && rm -rf ubuntu-desktop-post-install && git clone git://github.com/dchapkine/ubuntu-desktop-post-install.git && cd ubuntu-desktop-post-install && chmod +x install.sh && ./install.sh
+sudo apt-get install -y -qq git && cd ~ && rm -rf ubuntu-desktop-post-install && git clone git://github.com/dchapkine/ubuntu-desktop-post-install.git --quiet && cd ubuntu-desktop-post-install && chmod +x install.sh && ./install.sh
 
 ```	
 
