@@ -24,7 +24,7 @@ echo "running "$SCRIPT_NAME
 
 # install using node version manager
 # https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
-sudo apt-get install build-essential libssl-dev
+sudo apt-get -y install build-essential libssl-dev
 curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
 #source ~/.bashrc
 
