@@ -25,7 +25,7 @@ echo "running "$SCRIPT_NAME
 # install using node version manager
 # https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server
 sudo apt-get -y install build-essential libssl-dev &>> $SCRIPT_LOGFILE
-curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh &>> $SCRIPT_LOGFILE
+curl -sS https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh &>> $SCRIPT_LOGFILE
 #source ~/.bashrc
 
 echo "  run 'nvm install stable', (logout & relogin first)"
