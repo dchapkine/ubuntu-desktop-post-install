@@ -11,6 +11,6 @@ echo "running "$SCRIPT_NAME
 # http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2-3
 
 
-sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
-sudo apt-get -y update >> $SCRIPT_LOGFILE
-sudo apt-get -y install sublime-text-installer >> $SCRIPT_LOGFILE
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-3 &>> $SCRIPT_LOGFILE
+sudo apt-get -y update &>> $SCRIPT_LOGFILE
+sudo apt-get -y install sublime-text-installer &>> $SCRIPT_LOGFILE
