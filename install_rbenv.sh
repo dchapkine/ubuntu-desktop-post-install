@@ -26,12 +26,17 @@ echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 
 echo "gem: --no-document" > ~/.gemrc
 
-echo "  installing ruby 2.2.2 (will take few minutes)"
-exec bash -c "rbenv install -v 2.2.2 &> /dev/null; rbenv global 2.2.2 &> /dev/null; rbenv rehash &> /dev/null"
+
+echo "  !!! PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
+echo "  run 'rbenv install -v 2.2.2' to install ruby"
+echo "  run 'rbenv global 2.2.2' to set 2.2.2 as default global ruby version"
+
+#echo "  installing ruby 2.2.2 (will take few minutes)"
+#exec bash -c "rbenv install -v 2.2.2 &> /dev/null; rbenv global 2.2.2 &> /dev/null; rbenv rehash &> /dev/null"
 
 # @example: install ror and bundler
-# gem install bundler;
-# gem install rails;
+# gem install bundler && rbenv rehash;
+# gem install rails && rbenv rehash;
 
 # @example: install new ruby version
 # rbenv install -v X.X.X
