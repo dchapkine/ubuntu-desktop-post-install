@@ -8,4 +8,4 @@ echo "running "$SCRIPT_NAME
 
 # tested: works on ubuntu 14.04.3 gnome
 
-sudo apt-get -y install emacs24-nox >> $SCRIPT_LOGFILE
+sudo apt-get -y install emacs24-nox &>> $SCRIPT_LOGFILE
