@@ -9,24 +9,29 @@ echo "running "$SCRIPT_NAME
 
 # https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-14-04
 
-
+echo "  installing dependencies"
 sudo apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev >> $SCRIPT_LOGFILE
 
+
+echo "  cloning rbenv"
 cd
 rm -rf .rbenv
-git clone git://github.com/sstephenson/rbenv.git .rbenv >> $SCRIPT_LOGFILE
+git clone -q git://github.com/sstephenson/rbenv.git .rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 
-git clone git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+git clone -q git://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 #source ~/.bashrc
 
 echo "gem: --no-document" > ~/.gemrc
 
+echo "  installing ruby 2.2.2 (will take few minutes)"
+exec bash -c "rbenv install -v 2.2.2 &> /dev/null; rbenv global 2.2.2 &> /dev/null; rbenv rehash &> /dev/null"
 
-exec bash -c "rbenv install -v 2.2.2; rbenv global 2.2.2; gem install bundler; gem install rails; rbenv rehash"
-
+# @example: install ror and bundler
+# gem install bundler;
+# gem install rails;
 
 # @example: install new ruby version
 # rbenv install -v X.X.X
