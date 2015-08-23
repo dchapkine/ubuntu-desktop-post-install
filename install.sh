@@ -19,7 +19,7 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_emacs.sh
 		./install_spotify.sh
 		./install_vlc.sh
-		./install_steam.sh
+		#./install_steam.sh
 		./install_sublimetext3.sh
 		./install_icons.sh
 		./install_docker.sh
