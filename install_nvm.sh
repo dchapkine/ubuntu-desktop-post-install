@@ -28,7 +28,9 @@ sudo apt-get -y install build-essential libssl-dev &>> $SCRIPT_LOGFILE
 curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh &>> $SCRIPT_LOGFILE
 #source ~/.bashrc
 
-exec bash -c "nvm ls-remote; nvm install stable"
+echo "  run 'nvm install stable', (logout & relogin first)"
+
+# exec bash -c "nvm ls-remote; nvm install stable"
 
 #echo "TODO: PLEASE LOGOUT AND LOGIN AGAIN AFTER INSTALLATION FINISHES"
 #echo "After install, check available version by typing 'nvm ls-remote'"
