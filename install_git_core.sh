@@ -9,7 +9,7 @@ echo "running "$SCRIPT_NAME
 
 # tested: works on ubuntu 14.04.3 gnome
 
-sudo apt-get -y install git >> $SCRIPT_LOGFILE
+sudo apt-get -y install git &>> $SCRIPT_LOGFILE
 
 # creating directory for all git projects
 mkdir -p ~/git
