@@ -28,6 +28,9 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_nvm.sh
 		./install_rbenv.sh
 		./install_virtualbox.sh
+		./install_ffmpeg.sh
+		./install_filezilla.sh
+		./install_android.sh
 
 
 	else
