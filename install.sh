@@ -31,6 +31,7 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_ffmpeg.sh
 		./install_filezilla.sh
 		./install_android.sh
+		./install_power_managment.sh
 
 
 	else
