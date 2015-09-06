@@ -32,6 +32,7 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_filezilla.sh
 		./install_android.sh
 		./install_power_managment.sh
+		./install_git_bash_prompt.sh
 
 
 	else
