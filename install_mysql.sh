@@ -9,7 +9,7 @@ echo "running "$SCRIPT_NAME
 
 
 # todo: find better check
-if hash ffmysql 2>/dev/null; then
+if hash mysql 2>/dev/null; then
 	echo "  mysql server already installed"
 else
 	echo "  mysql server not installed"
