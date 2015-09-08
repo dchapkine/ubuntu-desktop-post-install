@@ -34,6 +34,7 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_power_managment.sh
 		./install_git_bash_prompt.sh
 		./install_gimp.sh
+		./install_inkscape.sh
 
 
 	else
