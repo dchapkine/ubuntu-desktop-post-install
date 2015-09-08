@@ -37,6 +37,8 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_inkscape.sh
 		./install_mysql.sh
 		./install_mysql_workbench.sh
+		./install_robomongo.sh
+		./install_mongo.sh
 
 
 	else
