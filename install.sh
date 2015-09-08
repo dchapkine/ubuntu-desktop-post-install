@@ -35,6 +35,7 @@ if [ "$DISTRIBUTOR" = "Ubuntu" ]; then
 		./install_git_bash_prompt.sh
 		./install_gimp.sh
 		./install_inkscape.sh
+		./install_mysql.sh
 
 
 	else
