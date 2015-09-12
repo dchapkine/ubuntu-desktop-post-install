@@ -2,6 +2,7 @@
 
 SCRIPT_NAME=$(basename $BASH_SOURCE)
 SCRIPT_LOGFILE="./logs/"$(basename -s .sh $BASH_SOURCE)".log"
+SCRIPT_ENVFILE="./logs/"$(basename -s .sh $BASH_SOURCE)".env"
 
 echo "running "$SCRIPT_NAME
 
@@ -40,6 +41,12 @@ else
 	echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 	echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 	echo '' >> ~/.bashrc
+
+
+	# update env file, so the parent shell can update its env too
+	echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> $SCRIPT_ENVFILE
+	echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> $SCRIPT_ENVFILE
+	
 
 
 
