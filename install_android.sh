@@ -30,13 +30,18 @@ else
 	echo '#' >> ~/.bashrc
 	echo 'export PATH="$HOME/tools/android/android-ndk:$PATH"' >> ~/.bashrc
 	echo 'export PATH="$HOME/Android/Sdk/platform-tools:$PATH"' >> ~/.bashrc
+	echo 'export PATH="$HOME/Android/Sdk/tools:$PATH"' >> ~/.bashrc
+	echo 'export PATH="$HOME/Android/Sdk/build-tools:$PATH"' >> ~/.bashrc
 	echo '' >> ~/.bashrc
 
 	# update env file, so the parent shell can update its env too
 	echo 'export PATH="$HOME/tools/android/android-ndk:$PATH"' >> $SCRIPT_ENVFILE
 	echo 'export PATH="$HOME/Android/Sdk/platform-tools:$PATH"' >> $SCRIPT_ENVFILE
+	echo 'export PATH="$HOME/Android/Sdk/tools:$PATH"' >> $SCRIPT_ENVFILE
+	echo 'export PATH="$HOME/Android/Sdk/build-tools:$PATH"' >> $SCRIPT_ENVFILE
 	
 
 	echo "  !!! Please logout/relogin to be able to use Android SDK tools"
+	echo "  !!! tip: type 'android' to access android sdk manager"
 
 fi
