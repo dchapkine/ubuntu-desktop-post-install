@@ -35,6 +35,7 @@ else
 	echo '' >> ~/.bashrc
 
 	# update env file, so the parent shell can update its env too
+	echo 'export ANDROID_HOME="$HOME/Android/Sdk"' >> $SCRIPT_ENVFILE
 	echo 'export PATH="$HOME/tools/android/android-ndk:$PATH"' >> $SCRIPT_ENVFILE
 	echo 'export PATH="$HOME/Android/Sdk/platform-tools:$PATH"' >> $SCRIPT_ENVFILE
 	echo 'export PATH="$HOME/Android/Sdk/tools:$PATH"' >> $SCRIPT_ENVFILE
