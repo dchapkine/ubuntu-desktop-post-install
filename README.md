@@ -1,12 +1,4 @@
-# ubuntu-desktop-post-install
-Ubuntu post installation script for developers
 
+![xkdc universal install script](https://imgs.xkcd.com/comics/universal_install_script.png)
 
-# One liner install
-
-```
-
-sudo apt-get install -y -qq git &> /dev/null && cd ~ && rm -rf ubuntu-desktop-post-install && git clone git://github.com/dchapkine/ubuntu-desktop-post-install.git &> /dev/null && cd ubuntu-desktop-post-install && chmod +x install.sh && ./install.sh
-
-```	
-
+Collection of easy to use install scripts for ubuntu 14.04 LTS
