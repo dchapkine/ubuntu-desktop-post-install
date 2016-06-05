@@ -48,8 +48,8 @@ else
 	curl -sS https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | sh &>> $SCRIPT_LOGFILE
 	#source ~/.bashrc
 
-	# set 0.12.7 as default version
-	echo 'nvm alias default 0.12.7 &>> /dev/null' >> ~/.bashrc
+	# set 4.4 as default version
+	echo 'nvm alias default 4.4 &>> /dev/null' >> ~/.bashrc
 
 
 	echo "  run 'nvm install stable', (logout & relogin first)"
