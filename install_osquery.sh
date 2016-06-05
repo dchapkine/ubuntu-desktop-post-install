@@ -15,7 +15,9 @@ if hash osqueryi 2>/dev/null; then
 else
 	echo "  osquery server not installed"
 
-	sudo apt-key -y adv --keyserver keyserver.ubuntu.com --recv-keys C9D8B80B
+	#sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C9D8B80B
+	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 1484120AC4E9F8A1A577AEEE97A80C63C9D8B80B
+
 	sudo add-apt-repository -y --force-yes "deb [arch=amd64] https://osquery-packages.s3.amazonaws.com/trusty trusty main"
 	sudo apt-get -y --force-yes update
 
