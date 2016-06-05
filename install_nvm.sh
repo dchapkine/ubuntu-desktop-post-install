@@ -44,7 +44,7 @@ else
 	echo '#' >> ~/.bashrc
 	echo '' >> ~/.bashrc
 
-	sudo apt-get -y install build-essential libssl-dev &>> $SCRIPT_LOGFILE
+	sudo apt-get -y install build-essential libssl-dev curl &>> $SCRIPT_LOGFILE
 	curl -sS https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | sh &>> $SCRIPT_LOGFILE
 	#source ~/.bashrc
 
