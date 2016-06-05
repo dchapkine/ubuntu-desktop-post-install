@@ -1,14 +1,13 @@
 #!/bin/bash
 
+# tested on ubuntu 16.04 (gnome)
+# tested on ubuntu 14.04.3 (gnome)
+
 SCRIPT_NAME=$(basename $BASH_SOURCE)
 SCRIPT_LOGFILE="./logs/"$(basename -s .sh $BASH_SOURCE)".log"
 mkdir -p ./logs && chmod 755 ./logs
 
 echo "running "$SCRIPT_NAME
-
-
-# tested: works on ubuntu 14.04.3 gnome
-
 
 
 if grep -Fxq '# installed by ubuntu-desktop-post-install/install_nvm.sh #' ~/.bashrc
@@ -46,7 +45,7 @@ else
 	echo '' >> ~/.bashrc
 
 	sudo apt-get -y install build-essential libssl-dev &>> $SCRIPT_LOGFILE
-	curl -sS https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh &>> $SCRIPT_LOGFILE
+	curl -sS https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh | sh &>> $SCRIPT_LOGFILE
 	#source ~/.bashrc
 
 	# set 0.12.7 as default version
