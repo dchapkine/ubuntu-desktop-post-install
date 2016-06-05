@@ -51,7 +51,6 @@ else
 	# set 4.4 as default version
 	echo 'nvm alias default 4.4 &>> /dev/null' >> ~/.bashrc
 
-
 	echo "  run 'nvm install stable', (logout & relogin first)"
 
 	# exec bash -c "nvm ls-remote; nvm install stable"
