@@ -29,7 +29,7 @@ elif [ "$DISTRIB_RELEASE" = "16.04" ]; then
 
 	echo "running UBUNTU 16.04 version"
 
-	wget -q http://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -  &>> $SCRIPT_LOGFILE
+	wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -  &>> $SCRIPT_LOGFILE
 	echo "deb http://download.virtualbox.org/virtualbox/debian $(lsb_release -sc) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list &>> $SCRIPT_LOGFILE
 	sudo apt-get update &>> $SCRIPT_LOGFILE
 	sudo apt-get -y install virtualbox-5.0 &>> $SCRIPT_LOGFILE
@@ -42,6 +42,3 @@ fi
 
 
 
-
-
-https://www.virtualbox.org/download/oracle_vbox_2016.asc
