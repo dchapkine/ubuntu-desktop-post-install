@@ -10,11 +10,12 @@ mkdir -p ./logs && chmod 755 ./logs
 
 echo "running "$SCRIPT_NAME
 
-# checking pip
-if hash pip 2>/dev/null; then
-	echo "  checking pip => ok"
+# checking pip3
+if hash pip3 2>/dev/null; then
+	echo "  checking pip3 => ok"
 else
-	echo "  checking pip => pip not installed, installing it"
+	echo "  checking pip3 => pip3 not installed, installing it"
 	exit;
 fi
+
 
