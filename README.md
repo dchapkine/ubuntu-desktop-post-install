@@ -8,6 +8,11 @@ TODO curently means that this script works perfectly on 14.04, but is untested u
 
 ### Install android
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_android.sh)
 ```
@@ -16,6 +21,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install arp scan
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_arpscan.sh)
 ```
@@ -23,6 +33,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install atom
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_atom.sh)
@@ -33,6 +48,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install audacity
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_audacity.sh)
 ```
@@ -41,6 +61,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install AWS CLI
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_aws_cli.sh)
@@ -51,6 +76,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install BATS
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_bats.sh)
 ```
@@ -59,6 +89,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Beanstalkd
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_beanstalk.sh)
@@ -69,6 +104,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Bower
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_bower.sh)
 ```
@@ -77,6 +117,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Browserify
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_browserify.sh)
@@ -87,6 +132,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Composer
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_composer.sh)
 ```
@@ -95,6 +145,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Cordova
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_cordova.sh)
@@ -189,6 +244,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install GIT BASH PROMPT
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_git_bash_prompt.sh)
 ```
@@ -196,6 +256,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install GIT CORE
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_git_core.sh)
@@ -205,6 +270,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install GIT GUIs
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_git_gui.sh)
 ```
@@ -212,6 +282,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Nvidia drivers (tested on 16.04 only, with Geforce 960m)
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_gpu_nvidia.sh)
@@ -229,6 +304,9 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install the best icon theme for gnome 3
 
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_icons.sh)
 ```
@@ -236,6 +314,10 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Inkscape
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_inkscape.sh)
@@ -381,6 +463,10 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install NodeJS
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_node.sh)
 ```
@@ -388,6 +474,10 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install NVM
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_nvm.sh)
@@ -445,6 +535,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install PHP BREW
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_phpbrew.sh)
 ```
@@ -453,6 +548,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install PIP (python 2)
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pip.sh)
 ```
@@ -460,6 +560,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install PIP3 (python 3)
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pip3.sh)
@@ -477,6 +582,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Power Managment Tools
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_power_managment.sh)
 ```
@@ -484,6 +594,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Py ENV
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pyenv.sh)
@@ -581,6 +696,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install TLP (power managment suite for laptops)
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_tlp.sh)
 ```
@@ -596,6 +716,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 ### Install Tree
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_tree.sh)
@@ -619,7 +744,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 
-### [TODO] Install Virtualbox
+### Install Virtualbox
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_virtualbox.sh)
@@ -629,15 +758,22 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install VLC
 
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_vlc.sh)
 ```
 
+
+
+
+### Install WebPack
+
 ✓ one line install
-
-
-
-### [TODO] Install WebPack
+✓ ubuntu 16.04
+✓ ubuntu 14.04
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_webpack.sh)
@@ -645,7 +781,11 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 
-### [TODO] Install X2GO client
+### Install X2GO client
+
+✓ one line install
+✓ ubuntu 16.04
+✓ ubuntu 14.04
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_x2goclient.sh)
