@@ -544,6 +544,15 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_phpbrew.sh)
 ```
 
+cool tricks:
+
+```
+
+phpbrew known
+phpbrew install 7.0 +default
+phpbrew use 7.0
+
+```
 
 
 ### Install PIP (python 2)
