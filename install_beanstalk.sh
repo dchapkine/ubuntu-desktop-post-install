@@ -17,13 +17,6 @@ else
 	echo "  beanstalk server not installed"
 
 	sudo apt-get -y install beanstalkd &>> $SCRIPT_LOGFILE
-
-
-	wget https://github.com/src-d/beanstool/releases/download/v0.2.0/beanstool_v0.2.0_linux_amd64.tar.gz
-	tar -xvzf beanstool_v0.2.0_linux_amd64.tar.gz
-	sudo cp beanstool_v0.2.0_linux_amd64/beanstool /usr/local/bin/
-
-
 fi
 
 
@@ -35,7 +28,6 @@ else
 
 	mkdir -p ~/tmp/beanstool
 	cd ~/tmp/beanstool
-
 
 	wget https://github.com/src-d/beanstool/releases/download/v0.2.0/beanstool_v0.2.0_linux_amd64.tar.gz
 	tar -xvzf beanstool_v0.2.0_linux_amd64.tar.gz
