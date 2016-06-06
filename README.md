@@ -627,11 +627,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 
 
-### [TODO] Install VLC
+### Install VLC
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_vlc.sh)
 ```
+
+✓ one line install
 
 
 
