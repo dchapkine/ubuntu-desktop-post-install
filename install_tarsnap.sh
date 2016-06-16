@@ -41,7 +41,17 @@ else
 
 	echo ""
 	echo "What to do next ?"
-	echo "  register this machine"
+	echo "-configure this machine"
 	echo "  sudo tarsnap-keygen --keyfile /root/tarsnap.key --user me@example.com --machine mybox"
+	echo ""
+	echo "-make a test backup of current directory"
+	echo "  sudo /usr/local/bin/tarsnap -v --print-stats -c -f "$(uname -n)-$(date +%Y-%m-%d_%H-%M-%S)" ."
+	echo ""
+	echo "-list all archives in the account"
+	echo "  sudo tarsnap --list-archives"
+	echo ""
+	echo "-restore an archive"
+	echo "  tarsnap -x -f mybackup-2015-08-09_19-37-20"
+	echo "  # note that it will restore directories as it was in current directory"
 
 fi
