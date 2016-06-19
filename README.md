@@ -1,46 +1,56 @@
 
 ![xkdc universal install script](https://imgs.xkcd.com/comics/universal_install_script.png)
 
-Collection of standalone, self documenting install scripts for ubuntu LTS editions (14.04 & 16.04)
+Collection of standalone, self documented install scripts for ubuntu LTS editions (14.04 & 16.04)
 
-TODO curently means that this script works perfectly on 14.04, but is untested under 16.04
+`TODO` curently means that this script works perfectly on 14.04, but is untested under 16.04
+
+## STEP1: Get the source
+
+```
+git clone https://github.com/dchapkine/ubuntu-desktop-post-install.git
+cd ubuntu-desktop-post-install
+```
+
+## STEP2: Run one of the install scripts below
+
 
 
 ### Install android
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_android.sh)
+./install_android.sh
 ```
 
 
 
 ### Install arp scan
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_arpscan.sh)
+./install_arpscan.sh
 ```
 
 
 
 ### Install atom
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_atom.sh)
+./install_atom.sh
 ```
 
 
@@ -48,13 +58,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install audacity
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_audacity.sh)
+./install_audacity.sh
 ```
 
 
@@ -62,13 +72,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install AWS CLI
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_aws_cli.sh)
+./install_aws_cli.sh
 ```
 
 
@@ -76,13 +86,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install BATS
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_bats.sh)
+./install_bats.sh
 ```
 
 
@@ -90,13 +100,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Beanstalkd
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_beanstalk.sh)
+./install_beanstalk.sh
 ```
 
 
@@ -104,13 +114,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Bower
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_bower.sh)
+./install_bower.sh
 ```
 
 
@@ -118,13 +128,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Browserify
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_browserify.sh)
+./install_browserify.sh
 ```
 
 
@@ -132,13 +142,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Composer
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_composer.sh)
+./install_composer.sh
 ```
 
 
@@ -146,13 +156,13 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install Cordova
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_cordova.sh)
+./install_cordova.sh
 ```
 
 Here is how to run a hello world on your device:
@@ -169,7 +179,7 @@ Here is how to run a hello world on your device:
 ### [TODO] Install Cordova Ubuntu Platform
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_cordova_ubuntu_platform.sh)
+./install_cordova_ubuntu_platform.sh
 ```
 
 
@@ -178,7 +188,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install DNSMASQ
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_dnsmasq.sh)
+./install_dnsmasq.sh
 ```
 
 
@@ -187,7 +197,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Docker
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_docker.sh)
+./install_docker.sh
 ```
 
 
@@ -196,7 +206,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Emacs
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_emacs.sh)
+./install_emacs.sh
 ```
 
 
@@ -205,7 +215,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install EspTool
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_esptool.sh)
+./install_esptool.sh
 ```
 
 
@@ -213,7 +223,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Express.js
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_expressjs.sh)
+./install_expressjs.sh
 ```
 
 
@@ -221,7 +231,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### Install FFMPEG
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_ffmpeg.sh)
+./install_ffmpeg.sh
 ```
 
 
@@ -229,7 +239,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Filezilla
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_filezilla.sh)
+./install_filezilla.sh
 ```
 
 
@@ -237,59 +247,59 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install GIMP
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_gimp.sh)
+./install_gimp.sh
 ```
 
 
 
 ### Install GIT BASH PROMPT
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_git_bash_prompt.sh)
+./install_git_bash_prompt.sh
 ```
 
 
 
 ### Install GIT CORE
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_git_core.sh)
+./install_git_core.sh
 ```
 
 
 
 ### Install GIT GUIs
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_git_gui.sh)
+./install_git_gui.sh
 ```
 
 
 
 ### Install Nvidia drivers (tested on 16.04 only, with Geforce 960m)
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_gpu_nvidia.sh)
+./install_gpu_nvidia.sh
 ```
 
 
@@ -297,7 +307,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Gulp
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_gulp.sh)
+./install_gulp.sh
 ```
 
 
@@ -308,19 +318,19 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_icons.sh)
+./install_icons.sh
 ```
 
 
 
 ### Install Inkscape
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_inkscape.sh)
+./install_inkscape.sh
 ```
 
 
@@ -328,7 +338,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Insync
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_insync.sh)
+./install_insync.sh
 ```
 
 
@@ -336,7 +346,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install JPEG Archive
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_jpeg_archive.sh)
+./install_jpeg_archive.sh
 ```
 
 
@@ -344,7 +354,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install JQ
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_jq.sh)
+./install_jq.sh
 ```
 
 
@@ -352,7 +362,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install ______
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/______.sh)
+./______.sh
 ```
 
 
@@ -360,7 +370,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Kernel 4.4.8
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_kernel_4_4_8.sh)
+./install_kernel_4_4_8.sh
 ```
 
 
@@ -368,7 +378,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Kernel 4.4.11
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_kernel_4_4_11.sh)
+./install_kernel_4_4_11.sh
 ```
 
 
@@ -376,7 +386,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Kernel 4.5.0
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_kernel_4_5_0.sh)
+./install_kernel_4_5_0.sh
 ```
 
 
@@ -384,7 +394,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Kernel 4.6.0
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_kernel_4_6_0.sh)
+./install_kernel_4_6_0.sh
 ```
 
 
@@ -392,7 +402,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Lektor
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_lektor.sh)
+./install_lektor.sh
 ```
 
 
@@ -400,7 +410,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Local Tunnel
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_localtunnel.sh)
+./install_localtunnel.sh
 ```
 
 
@@ -408,7 +418,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install MKdocs
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_mkdocs.sh)
+./install_mkdocs.sh
 ```
 
 
@@ -416,7 +426,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install MongoDB
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_mongo.sh)
+./install_mongo.sh
 ```
 
 
@@ -424,7 +434,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Mosh
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_mosh.sh)
+./install_mosh.sh
 ```
 
 
@@ -432,7 +442,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install MySQL
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_mysql.sh)
+./install_mysql.sh
 ```
 
 
@@ -440,7 +450,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install MySQL Workbench
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_mysql_workbench.sh)
+./install_mysql_workbench.sh
 ```
 
 
@@ -448,7 +458,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Nexe
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_nexe.sh)
+./install_nexe.sh
 ```
 
 
@@ -456,31 +466,31 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Nginx
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_nginx.sh)
+./install_nginx.sh
 ```
 
 
 
 ### Install NodeJS
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_node.sh)
+./install_node.sh
 ```
 
 
 
 ### Install NVM
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_nvm.sh)
+./install_nvm.sh
 ```
 
 
@@ -488,7 +498,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Ocen Audio
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_ocenaudio.sh)
+./install_ocenaudio.sh
 ```
 
 
@@ -496,7 +506,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install OpenShot
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_openshot.sh)
+./install_openshot.sh
 ```
 
 
@@ -504,7 +514,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install OsQuery
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_osquery.sh)
+./install_osquery.sh
 ```
 
 
@@ -512,7 +522,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install PCSC
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pcsc.sh)
+./install_pcsc.sh
 ```
 
 
@@ -520,7 +530,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install PDFMiner
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pdfminer.sh)
+./install_pdfminer.sh
 ```
 
 
@@ -528,20 +538,20 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Phonegap
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_phonegap.sh)
+./install_phonegap.sh
 ```
 
 
 
 ### Install PHP BREW
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_phpbrew.sh)
+./install_phpbrew.sh
 ```
 
 cool tricks:
@@ -557,26 +567,26 @@ phpbrew use 7.0
 
 ### Install PIP (python 2)
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pip.sh)
+./install_pip.sh
 ```
 
 
 
 ### Install PIP3 (python 3)
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pip3.sh)
+./install_pip3.sh
 ```
 
 
@@ -584,33 +594,33 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Platform.io
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_platformio.sh)
+./install_platformio.sh
 ```
 
 
 
 ### Install Power Managment Tools
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_power_managment.sh)
+./install_power_managment.sh
 ```
 
 
 
 ### Install Py ENV
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_pyenv.sh)
+./install_pyenv.sh
 ```
 
 
@@ -618,7 +628,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install RB ENV
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_rbenv.sh)
+./install_rbenv.sh
 ```
 
 
@@ -626,7 +636,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install React Native
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_react_native.sh)
+./install_react_native.sh
 ```
 
 
@@ -634,7 +644,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Redis
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_redis.sh)
+./install_redis.sh
 ```
 
 
@@ -642,7 +652,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Robomongo
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_robomongo.sh)
+./install_robomongo.sh
 ```
 
 
@@ -650,7 +660,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Screen
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_screen.sh)
+./install_screen.sh
 ```
 
 
@@ -658,7 +668,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Spotify
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_spotify.sh)
+./install_spotify.sh
 ```
 
 
@@ -666,7 +676,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install SSH pass
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_sshpass.sh)
+./install_sshpass.sh
 ```
 
 
@@ -674,7 +684,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Steam
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_steam.sh)
+./install_steam.sh
 ```
 
 
@@ -682,7 +692,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Sublime Text 3
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_sublimetext3.sh)
+./install_sublimetext3.sh
 ```
 
 
@@ -690,7 +700,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Terminator
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_terminator.sh)
+./install_terminator.sh
 ```
 
 
@@ -698,20 +708,20 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Term SQL
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_termsql.sh)
+./install_termsql.sh
 ```
 
 
 
 ### Install TLP (power managment suite for laptops)
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_tlp.sh)
+./install_tlp.sh
 ```
 
 
@@ -719,20 +729,20 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install TMUX
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_tmux.sh)
+./install_tmux.sh
 ```
 
 
 
 ### Install Tree
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_tree.sh)
+./install_tree.sh
 ```
 
 
@@ -740,7 +750,7 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Ubuntu SDK
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_ubuntu_sdk.sh)
+./install_ubuntu_sdk.sh
 ```
 
 
@@ -748,31 +758,31 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 ### [TODO] Install Vagrant
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_vagrant.sh)
+./install_vagrant.sh
 ```
 
 
 
 ### Install Virtualbox
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_virtualbox.sh)
+./install_virtualbox.sh
 ```
 
 
 
 ### Install VLC
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_vlc.sh)
+./install_vlc.sh
 ```
 
 
@@ -780,24 +790,24 @@ bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-i
 
 ### Install WebPack
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_webpack.sh)
+./install_webpack.sh
 ```
 
 
 
 ### Install X2GO client
 
-✓ one line install
+
 ✓ ubuntu 16.04
 ✓ ubuntu 14.04
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/dchapkine/ubuntu-desktop-post-install/master/install_x2goclient.sh)
+./install_x2goclient.sh
 ```
 
 
