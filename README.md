@@ -195,6 +195,28 @@ Here is how to run a hello world on your device:
 ./install_dnsmasq.sh
 ```
 
+```
+IMPORTANT: follow this steps after installation on ubuntu 14.04+ 
+
+First of all, avoid using .local domains with wildcard subdomains, it doesn't work
+appearantly, there is a conflict with 'avahi-daemon'...which might be fixable, but we wont bother trying
+we'll simply use a .dev domain here
+
+Well... no we won't. recently, google became the owner of .dev TLD, so your local DNS might override one of the future .dev domains. If you don't care, just use .dev =. If you do, please pick something else that is not a valid TLD
+
+In this guide, we will use .localhost and .loc
+
+1/ now edit this file: sudo emacs '/etc/dnsmasq.conf' and add 'address=/.loc/127.0.0.1' as well as 'address=/localhost/127.0.0.1' lines
+2/ then comment 'dns=dnsmasq' line in /etc/NetworkManager/NetworkManager.conf
+3/ find list of dnsmasq services running: 'sudo netstat -plant | grep :53' and kill em all using sudo 'kill -9 ID_PROCESS'
+4/ restart the service: 'sudo service dnsmasq restart'
+5/ add 'prepend domain-name-servers 127.0.0.1;' line to '/etc/dhcp/dhclient.conf' file
+6/ restart network manager: 'sudo service network-manager restart' 
+
+Now you can enjoy your wildcard local subdomains
+The good thing is that we will never need to add subdomains one by one, it will jusy work for any *.*.localhost and *.*.loc out of the box
+
+```
 
 
 
