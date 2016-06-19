@@ -16,7 +16,7 @@ cd ubuntu-desktop-post-install
 
 
 
-### Install android
+### Install android SDK/NDK & Android Studio
 
 
 ✓ ubuntu 16.04
@@ -25,6 +25,10 @@ cd ubuntu-desktop-post-install
 
 ```
 ./install_android.sh
+```
+
+```
+tip: type 'android' to access android sdk manager after installation
 ```
 
 
@@ -42,7 +46,7 @@ cd ubuntu-desktop-post-install
 
 
 
-### Install atom
+### Install atom editor
 
 
 ✓ ubuntu 16.04
