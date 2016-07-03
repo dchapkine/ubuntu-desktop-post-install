@@ -11,4 +11,7 @@ echo "running "$SCRIPT_NAME
 
 sudo apt-get -y install mysql-workbench
 
- 
+
+# @todo fix that
+# there is a bug affecting versions of 14.04 with mysql5.6+ installed:
+# https://bugs.launchpad.net/ubuntu/+source/mysql-workbench/+bug/1287424
