@@ -63,5 +63,10 @@ else
 
 	#echo "set default version using nvm alias default 0.12.7"
 
+	echo ""
+	echo "to alias nodejs to current node version, do this:"
+	echo "   sudo rm /usr/bin/nodejs"
+	echo "   sudo ln -s  /home/dchapkine/.nvm/current/bin/node /usr/bin/nodejs"
+
 fi
 
