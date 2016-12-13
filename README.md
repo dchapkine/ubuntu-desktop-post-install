@@ -471,6 +471,10 @@ The good thing is that we will never need to add subdomains one by one, it will 
 
 ### [TODO] Install MySQL
 
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 ./install_mysql.sh
 ```
