@@ -849,4 +849,15 @@ phpbrew use 7.0
 ```
 
 
+### Install Phantomjs
+
+
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+```
+./install_phantomjs.sh
+```
+
+
 
