@@ -7,6 +7,7 @@ mkdir -p ./logs && chmod 755 ./logs
 echo "running "$SCRIPT_NAME
 
 # tested: works on ubuntu 14.04.3 gnome
+# tested: works on ubuntu 16.04 gnome
 
 
 # todo: find better check

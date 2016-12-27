@@ -363,6 +363,10 @@ The good thing is that we will never need to add subdomains one by one, it will 
 
 ### [TODO] Install Insync
 
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 ./install_insync.sh
 ```
@@ -467,6 +471,10 @@ The good thing is that we will never need to add subdomains one by one, it will 
 
 ### [TODO] Install MySQL
 
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+
 ```
 ./install_mysql.sh
 ```
@@ -474,6 +482,10 @@ The good thing is that we will never need to add subdomains one by one, it will 
 
 
 ### [TODO] Install MySQL Workbench
+
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
 
 ```
 ./install_mysql_workbench.sh
@@ -834,6 +846,17 @@ phpbrew use 7.0
 
 ```
 ./install_x2goclient.sh
+```
+
+
+### Install Phantomjs
+
+
+✓ ubuntu 16.04
+✓ ubuntu 14.04
+
+```
+./install_phantomjs.sh
 ```
 
 
