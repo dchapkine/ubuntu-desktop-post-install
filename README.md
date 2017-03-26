@@ -679,7 +679,10 @@ phpbrew use 7.0
 
 
 
-### [TODO] Install Redis
+### Install Redis
+
+✓ ubuntu 16.04
+✓ ubuntu 14.04
 
 ```
 ./install_redis.sh

@@ -9,6 +9,7 @@ echo "running "$SCRIPT_NAME
 
 
 # tested: works on ubuntu 14.04.3 gnome
+# tested: works on ubuntu 16.04 gnome
 
 # checking redis
 if hash redis 2>/dev/null; then
