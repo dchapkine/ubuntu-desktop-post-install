@@ -22,7 +22,12 @@ else
 	curl "https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.deb.sh" | sudo bash
 	echo '127.0.0.1 gitlab.dev' | sudo tee -a /etc/hosts >/dev/null
 	cat /etc/hosts
-	sudo GITLAB_ROOT_EMAIL="admin@gitlab.dev" GITLAB_ROOT_PASSWORD="ChangeP@ssW0rd" EXTERNAL_URL="http://gitlab.dev" apt install -y gitlab-ee
+	sudo GITLAB_ROOT_EMAIL="admin@gitlab.dev" GITLAB_ROOT_PASSWORD="ChangeP@ssW0rd" EXTERNAL_URL="http://gitlab.dev" apt install -y gitlab-ee gitlab-runner
+
+	# runner
+	# create runner from gui
+	#export RUNNER_TOKEN=...
+	#sudo gitlab-runner register --non-interactive --url "http://localhost/" --token "$RUNNER_TOKEN" --executor "docker" --docker-image alpine:latest --description "docker-runner"
 
 	# testing
 	sudo gitlab-ctl status
